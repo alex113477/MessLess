@@ -39,8 +39,8 @@ const products = {
   grey: { small: '400528233', large: '575197795' }
 };
 const leafVariants = {
-  small: { image: 'assets/leaf-small-clean.png', pattern: 'Вертикальные листья · 130 × 47 см', alt: 'Чехол MessLess 130 × 47 см с вертикальными листьями на гладильной доске' },
-  large: { image: 'assets/leaf-large-clean.png', pattern: 'Горизонтальные листья · 135 × 56 см', alt: 'Чехол MessLess 135 × 56 см с горизонтальными листьями на гладильной доске' }
+  small: { image: 'assets/leaf-small-clean.webp', pattern: 'Вертикальные листья · 130 × 47 см', alt: 'Чехол MessLess 130 × 47 см с вертикальными листьями на гладильной доске' },
+  large: { image: 'assets/leaf-large-clean.webp', pattern: 'Горизонтальные листья · 135 × 56 см', alt: 'Чехол MessLess 135 × 56 см с горизонтальными листьями на гладильной доске' }
 };
 function updateProduct(product, size) {
   const buy = product.querySelector('[data-buy]');
